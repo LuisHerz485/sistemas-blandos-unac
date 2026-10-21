@@ -1785,9 +1785,12 @@ button {
         padding-bottom: 0;
     }
 
+    /* Alto explícito en lugar de aspect-ratio: en Safari iOS un ítem de grilla
+       estirado con aspect-ratio puede colapsar a 0×0. */
     .hero-visual {
+        align-self: start;
         min-height: 0;
-        aspect-ratio: 4 / 3;
+        height: min(75vw, 600px);
         margin-inline: calc(-1 * clamp(16px, 4vw, 40px));
     }
 
@@ -1817,10 +1820,12 @@ button {
         animation: msg-in 320ms var(--ease-out) both;
     }
 
+    /* La proporción 3:2 sale de los atributos width/height del <img>. */
     .program-inline img {
+        align-self: start;
+        width: 100%;
+        height: auto;
         border-radius: 14px;
-        aspect-ratio: 3 / 2;
-        object-fit: cover;
     }
 
     .program-inline p {
@@ -1933,7 +1938,7 @@ button {
     }
 
     .hero-visual {
-        aspect-ratio: 4 / 5;
+        height: min(125vw, 620px);
     }
 
     .hero-visual > img {

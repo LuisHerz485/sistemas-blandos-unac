@@ -26,7 +26,14 @@ function readConfig(env: ImportMetaEnv): GoogleFormConfig | null {
         autorizacion: env.VITE_GOOGLE_ENTRY_AUTORIZACION?.trim(),
     }
 
-    if (!formId || !FORM_ID_RE.test(formId)) return null
+    if (!formId || !FORM_ID_RE.test(formId)) {
+        console.warn(
+            formId
+                ? '[config] Modo demo: VITE_GOOGLE_FORM_ID tiene formato inválido (solo el ID, sin URL ni /viewform).'
+                : '[config] Modo demo: VITE_GOOGLE_FORM_ID no llegó al build (¿falta la variable o no se volvió a desplegar?).',
+        )
+        return null
+    }
 
     const invalid = Object.entries(fields).filter(([, v]) => !v || !ENTRY_RE.test(v))
     if (invalid.length > 0) {
