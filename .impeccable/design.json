@@ -1,0 +1,621 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T00:04:02.664Z",
+  "title": "Design System: Instituto Superior Tecnológico Horizonte",
+  "extensions": {
+    "colorMeta": {
+      "navy-950": {
+        "role": "primary",
+        "displayName": "Night Footer",
+        "canonical": "#08132e",
+        "tonalRamp": [
+          "#08132e",
+          "#0b1a3d",
+          "#0f2350",
+          "#1a3470",
+          "#5f76ad",
+          "#9fb1d9",
+          "#e3e9f6",
+          "#f3f6fb"
+        ]
+      },
+      "navy-900": {
+        "role": "primary",
+        "displayName": "Azul Horizonte",
+        "canonical": "#0b1a3d",
+        "tonalRamp": [
+          "#08132e",
+          "#0b1a3d",
+          "#0f2350",
+          "#1a3470",
+          "#5f76ad",
+          "#9fb1d9",
+          "#e3e9f6",
+          "#f3f6fb"
+        ]
+      },
+      "navy-800": {
+        "role": "primary",
+        "displayName": "Deep Desk Navy",
+        "canonical": "#0f2350",
+        "tonalRamp": [
+          "#08132e",
+          "#0b1a3d",
+          "#0f2350",
+          "#1a3470",
+          "#5f76ad",
+          "#9fb1d9",
+          "#e3e9f6",
+          "#f3f6fb"
+        ]
+      },
+      "navy-700": {
+        "role": "primary",
+        "displayName": "Hover Navy",
+        "canonical": "#1a3470",
+        "tonalRamp": [
+          "#08132e",
+          "#0b1a3d",
+          "#0f2350",
+          "#1a3470",
+          "#5f76ad",
+          "#9fb1d9",
+          "#e3e9f6",
+          "#f3f6fb"
+        ]
+      },
+      "navy-300": {
+        "role": "neutral",
+        "displayName": "Steel",
+        "canonical": "#9fb1d9",
+        "tonalRamp": [
+          "#08132e",
+          "#0b1a3d",
+          "#0f2350",
+          "#1a3470",
+          "#5f76ad",
+          "#9fb1d9",
+          "#e3e9f6",
+          "#f3f6fb"
+        ]
+      },
+      "navy-100": {
+        "role": "neutral",
+        "displayName": "Haze",
+        "canonical": "#e3e9f6",
+        "tonalRamp": [
+          "#08132e",
+          "#0b1a3d",
+          "#0f2350",
+          "#1a3470",
+          "#5f76ad",
+          "#9fb1d9",
+          "#e3e9f6",
+          "#f3f6fb"
+        ]
+      },
+      "navy-50": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#f3f6fb",
+        "tonalRamp": [
+          "#08132e",
+          "#0b1a3d",
+          "#0f2350",
+          "#1a3470",
+          "#5f76ad",
+          "#9fb1d9",
+          "#e3e9f6",
+          "#f3f6fb"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#0e1730",
+        "tonalRamp": [
+          "#0a142f",
+          "#0b152f",
+          "#0d1630",
+          "#0e1730",
+          "#565d6e",
+          "#9397a2",
+          "#cfd1d6",
+          "#eeeff1"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Slate Ink",
+        "canonical": "#44506a",
+        "tonalRamp": [
+          "#17223d",
+          "#26324c",
+          "#35415b",
+          "#44506a",
+          "#7c8597",
+          "#abb0bc",
+          "#dadce1",
+          "#f2f3f5"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#5d6883",
+        "tonalRamp": [
+          "#1d2843",
+          "#333e59",
+          "#48536e",
+          "#5d6883",
+          "#8e95a8",
+          "#b6bbc7",
+          "#dfe1e6",
+          "#f4f4f6"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#dde3ef",
+        "tonalRamp": [
+          "#3d475e",
+          "#737b8f",
+          "#a8afbf",
+          "#dde3ef",
+          "#e7ebf4",
+          "#f0f2f8",
+          "#f8f9fc",
+          "#fdfdfe"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#464e62",
+          "#848997",
+          "#c1c4cb",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "sun": {
+        "role": "secondary",
+        "displayName": "Sun",
+        "canonical": "#f2782d",
+        "tonalRamp": [
+          "#432c2e",
+          "#7d462e",
+          "#b85f2d",
+          "#f2782d",
+          "#f6a16c",
+          "#f9c2a1",
+          "#fce4d5",
+          "#fef6f0"
+        ]
+      },
+      "accent": {
+        "role": "secondary",
+        "displayName": "Naranja Atardecer",
+        "canonical": "#c84b0a",
+        "tonalRamp": [
+          "#382125",
+          "#682f1c",
+          "#983d13",
+          "#c84b0a",
+          "#d98154",
+          "#e6ae91",
+          "#f4dbce",
+          "#fbf2ee"
+        ]
+      },
+      "accent-hover": {
+        "role": "secondary",
+        "displayName": "Naranja Atardecer Deep",
+        "canonical": "#ae3f06",
+        "tonalRamp": [
+          "#321e24",
+          "#5b291a",
+          "#853410",
+          "#ae3f06",
+          "#c67951",
+          "#dba98f",
+          "#efd9cd",
+          "#f9f2ee"
+        ]
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "Error Red",
+        "canonical": "#b42318",
+        "tonalRamp": [
+          "#331729",
+          "#5e1b23",
+          "#891f1e",
+          "#b42318",
+          "#cb655d",
+          "#dd9c97",
+          "#f0d3d1",
+          "#faf0ef"
+        ]
+      },
+      "req": {
+        "role": "tertiary",
+        "displayName": "Requisitos Amber",
+        "canonical": "#e09a00",
+        "tonalRamp": [
+          "#3e3523",
+          "#745717",
+          "#aa780c",
+          "#e09a00",
+          "#e9b84d",
+          "#f1d28c",
+          "#f9ebcc",
+          "#fdf8ed"
+        ]
+      },
+      "req-bg": {
+        "role": "tertiary",
+        "displayName": "Requisitos Amber Tint",
+        "canonical": "#fff3d6",
+        "tonalRamp": [
+          "#464b58",
+          "#848382",
+          "#c1bbac",
+          "#fff3d6",
+          "#fff7e2",
+          "#fffaed",
+          "#fffdf7",
+          "#fffefc"
+        ]
+      },
+      "req-ink": {
+        "role": "tertiary",
+        "displayName": "Requisitos Amber Ink",
+        "canonical": "#7a4b00",
+        "tonalRamp": [
+          "#252123",
+          "#412f17",
+          "#5e3d0c",
+          "#7a4b00",
+          "#a2814d",
+          "#c3ae8c",
+          "#e4dbcc",
+          "#f6f2ed"
+        ]
+      },
+      "hor": {
+        "role": "tertiary",
+        "displayName": "Horarios Teal",
+        "canonical": "#12a08c",
+        "tonalRamp": [
+          "#0b3646",
+          "#0d5a5d",
+          "#107d75",
+          "#12a08c",
+          "#59bdaf",
+          "#94d4cb",
+          "#d0ece8",
+          "#eef8f7"
+        ]
+      },
+      "hor-bg": {
+        "role": "tertiary",
+        "displayName": "Horarios Teal Tint",
+        "canonical": "#daf4ef",
+        "tonalRamp": [
+          "#3d4b5e",
+          "#71848f",
+          "#a6bcbf",
+          "#daf4ef",
+          "#e5f7f4",
+          "#eefaf8",
+          "#f8fdfc",
+          "#fcfefe"
+        ]
+      },
+      "hor-ink": {
+        "role": "tertiary",
+        "displayName": "Horarios Teal Ink",
+        "canonical": "#0a5e52",
+        "tonalRamp": [
+          "#092637",
+          "#093940",
+          "#0a4b49",
+          "#0a5e52",
+          "#548e86",
+          "#91b7b1",
+          "#cedfdc",
+          "#eef4f3"
+        ]
+      },
+      "cos": {
+        "role": "tertiary",
+        "displayName": "Costos Magenta",
+        "canonical": "#d93d84",
+        "tonalRamp": [
+          "#3c1e44",
+          "#712859",
+          "#a5336f",
+          "#d93d84",
+          "#e477a9",
+          "#eea8c8",
+          "#f7d8e6",
+          "#fcf1f6"
+        ]
+      },
+      "cos-bg": {
+        "role": "tertiary",
+        "displayName": "Costos Magenta Tint",
+        "canonical": "#fce3ef",
+        "tonalRamp": [
+          "#45475e",
+          "#827b8f",
+          "#bfafbf",
+          "#fce3ef",
+          "#fdebf4",
+          "#fef2f8",
+          "#fef9fc",
+          "#fffdfe"
+        ]
+      },
+      "cos-ink": {
+        "role": "tertiary",
+        "displayName": "Costos Magenta Ink",
+        "canonical": "#97184f",
+        "tonalRamp": [
+          "#2c1436",
+          "#50163f",
+          "#731747",
+          "#97184f",
+          "#b65d84",
+          "#d097b0",
+          "#ead1dc",
+          "#f8eff3"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; closing headline uses the same voice smaller. Archivo narrowed to 84% via font-stretch."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles in navy-900 on light ground; white on navy."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Program detail, step titles, program list names."
+      },
+      "title-sm": {
+        "displayName": "Small Title",
+        "purpose": "Logo wordmark, admission band values, chat title, form card title."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy, 36-58ch measure."
+      },
+      "body-lead": {
+        "displayName": "Lead",
+        "purpose": "Section lead paragraphs and hero subcopy in ink-2 (light) or #c5d0ea (navy)."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Meta labels, field labels, table heads, tag text. Sentence case."
+      }
+    },
+    "shadows": [
+      {
+        "name": "float",
+        "value": "0 2px 6px rgb(11 26 61 / 0.08), 0 24px 56px -16px rgb(11 26 61 / 0.32)",
+        "purpose": "Chat panel, launcher, hero preview card: layers above the page."
+      },
+      {
+        "name": "rest",
+        "value": "0 1px 2px rgb(11 26 61 / 0.06), 0 2px 6px rgb(11 26 61 / 0.05)",
+        "purpose": "In-chat registration card."
+      },
+      {
+        "name": "ask-lift",
+        "value": "0 12px 32px -12px rgb(0 0 0 / 0.5)",
+        "purpose": "White ask bar on the navy hero."
+      },
+      {
+        "name": "ask-focus",
+        "value": "0 0 0 4px rgb(242 120 45 / 0.45), 0 12px 32px -12px rgb(0 0 0 / 0.5)",
+        "purpose": "Ask bar focus-within halo."
+      },
+      {
+        "name": "field-focus",
+        "value": "0 0 0 3px #e3e9f6",
+        "purpose": "Form field focus halo with navy-700 border."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Default for all state transitions, entrances and the chat panel spring."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "Looping typing indicator."
+      },
+      {
+        "name": "ease-drawer",
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Mobile bottom-sheet chat (460ms in, 320ms out)."
+      },
+      {
+        "name": "duration-state",
+        "value": "160ms",
+        "purpose": "Color and border transitions."
+      },
+      {
+        "name": "duration-press",
+        "value": "120ms",
+        "purpose": "Active press scale (0.94-0.97)."
+      },
+      {
+        "name": "chat-open",
+        "value": "280ms",
+        "purpose": "Chat panel from translateY(8px) scale(0.96) to rest, origin bottom right."
+      },
+      {
+        "name": "msg-in",
+        "value": "300ms",
+        "purpose": "Message entrance: fade, 8px rise, 0.98 scale, 3px blur."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "900px"
+      },
+      {
+        "name": "lg",
+        "value": "1020px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The next action; the only orange fill on a view region.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Registrar mi interés</button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:46px; padding:0 22px; border:1px solid transparent; border-radius:999px; font-family:var(--font-body,'Hanken Grotesk',system-ui,sans-serif); font-weight:650; font-size:1rem; cursor:pointer; transition:background-color 160ms cubic-bezier(0.23,1,0.32,1), border-color 160ms cubic-bezier(0.23,1,0.32,1), transform 120ms cubic-bezier(0.23,1,0.32,1); } .ds-btn-primary { background:var(--accent,#c84b0a); color:#fff; } .ds-btn-primary:hover { background:var(--accent-hover,#ae3f06); } .ds-btn:active { transform:scale(0.97); } .ds-btn:focus-visible { outline:3px solid var(--sun,#f2782d); outline-offset:2px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action on light ground.",
+      "html": "<button class=\"ds-btn-ghost\">Preguntar por esta carrera</button>",
+      "css": ".ds-btn-ghost { display:inline-flex; align-items:center; gap:8px; min-height:40px; padding:0 18px; border:1px solid var(--line,#dde3ef); border-radius:999px; background:transparent; color:var(--navy-800,#0f2350); font-family:'Hanken Grotesk',system-ui,sans-serif; font-weight:650; font-size:0.9375rem; cursor:pointer; transition:background-color 160ms cubic-bezier(0.23,1,0.32,1), border-color 160ms cubic-bezier(0.23,1,0.32,1), transform 120ms; } .ds-btn-ghost:hover { border-color:var(--navy-300,#9fb1d9); background:var(--navy-50,#f3f6fb); } .ds-btn-ghost:active { transform:scale(0.97); } .ds-btn-ghost:focus-visible { outline:3px solid var(--sun,#f2782d); outline-offset:2px; }"
+    },
+    {
+      "name": "Ask Bar",
+      "kind": "input",
+      "refersTo": "ask-bar",
+      "description": "Signature pill input with embedded send circle; the admission desk on the navy hero.",
+      "html": "<div class=\"ds-ask-ground\"><div class=\"ds-ask\"><input placeholder=\"Ej. ¿Qué documentos necesito para postular?\" aria-label=\"Pregunta\"><button class=\"ds-send\" aria-label=\"Enviar\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 12 7-7 7 7\"/><path d=\"M12 19V5\"/></svg></button></div></div>",
+      "css": ".ds-ask-ground { background:var(--navy-900,#0b1a3d); padding:24px; } .ds-ask { display:flex; align-items:center; gap:8px; max-width:560px; padding:6px 6px 6px 20px; background:#fff; border-radius:999px; box-shadow:0 12px 32px -12px rgb(0 0 0 / 0.5); transition:box-shadow 200ms cubic-bezier(0.23,1,0.32,1); } .ds-ask:focus-within { box-shadow:0 0 0 4px rgb(242 120 45 / 0.45), 0 12px 32px -12px rgb(0 0 0 / 0.5); } .ds-ask input { flex:1; min-width:0; height:48px; border:0; outline:none; background:transparent; color:var(--ink,#0e1730); font:400 1.0625rem 'Hanken Grotesk',system-ui,sans-serif; } .ds-ask input::placeholder { color:var(--ink-3,#5d6883); } .ds-send { display:grid; place-items:center; width:48px; height:48px; border:0; border-radius:50%; background:var(--accent,#c84b0a); color:#fff; cursor:pointer; transition:background-color 160ms, transform 120ms; } .ds-send:hover { background:var(--accent-hover,#ae3f06); } .ds-send:active { transform:scale(0.94); } .ds-send:focus-visible { outline:3px solid var(--sun,#f2782d); outline-offset:2px; }"
+    },
+    {
+      "name": "Form Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Labeled text field used in the in-chat registration form.",
+      "html": "<label class=\"ds-field\"><span>Nombre</span><input placeholder=\"Tu nombre\"></label>",
+      "css": ".ds-field { display:grid; gap:6px; font-family:'Hanken Grotesk',system-ui,sans-serif; } .ds-field span { font-size:0.8125rem; font-weight:650; color:var(--ink-2,#44506a); } .ds-field input { min-height:44px; padding:10px 12px; border:1px solid var(--line,#dde3ef); border-radius:10px; background:#fff; color:var(--ink,#0e1730); font:400 1rem/1.4 inherit; transition:border-color 160ms cubic-bezier(0.23,1,0.32,1), box-shadow 160ms cubic-bezier(0.23,1,0.32,1); } .ds-field input::placeholder { color:var(--ink-3,#5d6883); } .ds-field input:focus { outline:none; border-color:var(--navy-700,#1a3470); box-shadow:0 0 0 3px var(--navy-100,#e3e9f6); }"
+    },
+    {
+      "name": "Category Tags",
+      "kind": "chip",
+      "refersTo": "category-tag-requisitos",
+      "description": "Classification code: dot + tinted pill + deep ink, one per category.",
+      "html": "<div class=\"ds-tags\"><span class=\"ds-tag ds-req\"><i></i>Requisitos</span><span class=\"ds-tag ds-hor\"><i></i>Horarios</span><span class=\"ds-tag ds-cos\"><i></i>Costos</span></div>",
+      "css": ".ds-tags { display:flex; gap:8px; } .ds-tag { display:inline-flex; align-items:center; gap:6px; padding:3px 10px 3px 8px; border-radius:999px; font:700 0.8125rem/1.4 'Hanken Grotesk',system-ui,sans-serif; } .ds-tag i { width:8px; height:8px; border-radius:50%; } .ds-req { background:var(--req-bg,#fff3d6); color:var(--req-ink,#7a4b00); } .ds-req i { background:var(--req,#e09a00); } .ds-hor { background:var(--hor-bg,#daf4ef); color:var(--hor-ink,#0a5e52); } .ds-hor i { background:var(--hor,#12a08c); } .ds-cos { background:var(--cos-bg,#fce3ef); color:var(--cos-ink,#97184f); } .ds-cos i { background:var(--cos,#d93d84); }"
+    },
+    {
+      "name": "Choice Chip",
+      "kind": "chip",
+      "refersTo": "choice-chip",
+      "description": "Pill quick-reply; hover takes the category tint.",
+      "html": "<button class=\"ds-choice\"><i></i>Horarios</button>",
+      "css": ".ds-choice { display:inline-flex; align-items:center; gap:8px; min-height:40px; padding:0 16px; border:1px solid var(--line,#dde3ef); border-radius:999px; background:#fff; color:var(--navy-900,#0b1a3d); font:600 0.9375rem 'Hanken Grotesk',system-ui,sans-serif; cursor:pointer; transition:background-color 160ms cubic-bezier(0.23,1,0.32,1), border-color 160ms cubic-bezier(0.23,1,0.32,1), transform 120ms; } .ds-choice i { width:8px; height:8px; border-radius:50%; background:var(--hor,#12a08c); } .ds-choice:hover { background:var(--hor-bg,#daf4ef); border-color:var(--hor,#12a08c); } .ds-choice:active { transform:scale(0.97); } .ds-choice:focus-visible { outline:3px solid var(--sun,#f2782d); outline-offset:2px; }"
+    },
+    {
+      "name": "Chat Bubbles",
+      "kind": "custom",
+      "refersTo": "bubble-bot",
+      "description": "Bot bubble (white, hairline, tight bottom-left) and user bubble (navy, tight bottom-right) on the mist chat ground.",
+      "html": "<div class=\"ds-chat\"><div class=\"ds-bub ds-user\">¿Atienden en la noche? Trabajo de día.</div><div class=\"ds-bub ds-bot\"><span class=\"ds-tag\"><i></i>Horarios</span>Sí: turno noche de lunes a viernes, 18:30 a 22:30.</div></div>",
+      "css": ".ds-chat { display:flex; flex-direction:column; gap:10px; padding:18px 14px; background:var(--navy-50,#f3f6fb); font-family:'Hanken Grotesk',system-ui,sans-serif; } .ds-bub { max-width:88%; padding:10px 14px; border-radius:16px; font-size:0.9688rem; line-height:1.5; } .ds-user { align-self:flex-end; background:var(--navy-800,#0f2350); color:#fff; border-bottom-right-radius:6px; } .ds-bot { align-self:flex-start; display:grid; gap:8px; justify-items:start; background:#fff; color:var(--ink,#0e1730); border:1px solid var(--line,#dde3ef); border-bottom-left-radius:6px; } .ds-tag { display:inline-flex; align-items:center; gap:6px; padding:3px 10px 3px 8px; border-radius:999px; background:var(--hor-bg,#daf4ef); color:var(--hor-ink,#0a5e52); font-size:0.8125rem; font-weight:700; } .ds-tag i { width:8px; height:8px; border-radius:50%; background:var(--hor,#12a08c); }"
+    },
+    {
+      "name": "Chat Launcher",
+      "kind": "button",
+      "refersTo": "launcher",
+      "description": "Floating navy pill that opens the chat panel.",
+      "html": "<button class=\"ds-launcher\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\"/></svg>Pregunta a Admisión</button>",
+      "css": ".ds-launcher { display:inline-flex; align-items:center; gap:10px; height:56px; padding:0 22px 0 16px; border:0; border-radius:999px; background:var(--navy-800,#0f2350); color:#fff; font:650 1rem 'Hanken Grotesk',system-ui,sans-serif; box-shadow:0 2px 6px rgb(11 26 61 / 0.08), 0 24px 56px -16px rgb(11 26 61 / 0.32); cursor:pointer; transition:transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 160ms cubic-bezier(0.23,1,0.32,1); } .ds-launcher:hover { background:var(--navy-700,#1a3470); } .ds-launcher:active { transform:scale(0.96); } .ds-launcher:focus-visible { outline:3px solid var(--sun,#f2782d); outline-offset:2px; }"
+    },
+    {
+      "name": "Header Nav",
+      "kind": "nav",
+      "refersTo": "button-primary",
+      "description": "Sticky navy header with pill links and a small primary action.",
+      "html": "<nav class=\"ds-nav\"><strong>Horizonte</strong><span><a href=\"#\">Carreras</a><a href=\"#\">Admisión</a><a href=\"#\">Horarios</a><a href=\"#\">Costos</a><button>Registrar mi interés</button></span></nav>",
+      "css": ".ds-nav { display:flex; align-items:center; justify-content:space-between; gap:24px; height:72px; padding:0 24px; background:var(--navy-900,#0b1a3d); color:#fff; font-family:'Hanken Grotesk',system-ui,sans-serif; } .ds-nav strong { font:750 1.25rem 'Archivo',system-ui,sans-serif; font-stretch:92%; letter-spacing:-0.01em; } .ds-nav span { display:flex; align-items:center; gap:4px; } .ds-nav a { padding:8px 14px; border-radius:999px; text-decoration:none; font-weight:550; font-size:0.9688rem; color:rgb(255 255 255 / 0.86); transition:color 160ms, background-color 160ms; } .ds-nav a:hover { color:#fff; background:rgb(255 255 255 / 0.08); } .ds-nav a:focus-visible, .ds-nav button:focus-visible { outline:3px solid var(--sun,#f2782d); outline-offset:2px; } .ds-nav button { margin-left:10px; min-height:40px; padding:0 18px; border:0; border-radius:999px; background:var(--accent,#c84b0a); color:#fff; font:650 0.9375rem inherit; cursor:pointer; } .ds-nav button:hover { background:var(--accent-hover,#ae3f06); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Admission Desk",
+    "overview": "Horizonte is a category-standard institute site played straight: cool white ground, a committed deep navy field for the header, hero, closing band and footer, and a single warm sunset orange that marks the thing to do next. The system's one idea is that the question box is the front desk. The ask bar, the chat panel and the classified answer are the product, so the conversational components (pill inputs, bubbles, category tags, choice chips) carry the most design weight and are reused across the landing and the chat.\n\nDensity is relaxed and institutional: generous section padding, a 1240px container, hairline dividers instead of cards for lists and tables, and real campus and lab photography with soft rounding. Type is a condensed, heavy Archivo for headings (the width axis is part of the voice) against a calm Hanken Grotesk body. Three category hues (Requisitos amber, Horarios teal, Costos magenta) are a functional code, not decoration: they appear only where a question is classified or chosen.",
+    "keyCharacteristics": [
+      "Navy field plus white ground; orange reserved for primary action.",
+      "Condensed heavy Archivo headings (width 84–92%), Hanken Grotesk body at 17px / 1.6.",
+      "Pill geometry for every action and chip; 10–22px radii for fields, bubbles, cards and panels.",
+      "Hairline rules (`line`) structure lists, tables and dividers; cards are rare.",
+      "Soft navy-tinted shadows only on floating things (chat panel, launcher, preview card).",
+      "Category color code: dot + tinted pill, used only for classification."
+    ],
+    "rules": [
+      {
+        "name": "The One Warm Voice Rule",
+        "body": "Orange (`accent`) appears only on the action to take next: the primary button, the send button, the active arrow. Navy carries everything else.",
+        "section": "colors"
+      },
+      {
+        "name": "The Category Code Rule",
+        "body": "Amber, teal and magenta mean Requisitos, Horarios and Costos and nothing else. Use them as dot + tinted pill + deep ink, never as section backgrounds or decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Narrow Voice Rule",
+        "body": "Every Archivo heading is set with `font-stretch` below 100% (84% display, 88% headings, 92% small titles) and negative tracking (-0.01 to -0.03em). Full-width Archivo is off-brand.",
+        "section": "typography"
+      },
+      {
+        "name": "The Quiet Label Rule",
+        "body": "Labels are small sentence-case Hanken in `ink-3` or `ink-2`. Headings stand alone: no tag lines, overlines or uppercase kickers above them.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only-Floaters Rule",
+        "body": "A shadow means \"this sits above the page.\" In-flow content (lists, tables, steps, program media) uses no shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep orange to the next action: one primary button or send circle per view region.",
+      "**Do** set every Archivo heading narrowed (84–92%) with negative tracking.",
+      "**Do** use the category triplet (dot, `-bg` fill, `-ink` text) wherever a question is classified.",
+      "**Do** structure lists and tables with 1px `line` rules rather than cards.",
+      "**Do** give interactive elements a press scale (0.94–0.97) and gate hover styles behind `(hover: hover)`.",
+      "**Do** use real campus and lab photography with 20–24px rounding or full-bleed under a navy gradient.",
+      "**Do** use lucide line icons as inline SVG."
+    ],
+    "donts": [
+      "**Don't** use amber, teal or magenta for anything other than Requisitos, Horarios and Costos.",
+      "**Don't** put shadows on in-flow content; shadows are for floating layers only.",
+      "**Don't** use square or small-radius buttons; actions are pills.",
+      "**Don't** add uppercase kickers or overlines above headings.",
+      "**Don't** fill text-bearing controls with `sun`; the orange fill is `accent` (`#c84b0a`) for contrast with white text."
+    ]
+  }
+}

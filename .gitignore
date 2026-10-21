@@ -1,0 +1,38 @@
+# --- Dependencias ---
+node_modules/
+
+# --- Build y cachés ---
+dist/
+*.tsbuildinfo
+*.local
+vite.config.*.timestamp-*
+.eslintcache
+coverage/
+
+# --- Variables de entorno (solo se versiona la plantilla) ---
+.env
+.env.*
+!.env.example
+
+# --- Netlify CLI (enlace local al sitio) ---
+.netlify/
+
+# --- Impeccable: capturas de revisión (se regeneran); se versionan design.json y surfaces/ ---
+.impeccable/review/
+
+# --- Editores (se comparten solo los ajustes del proyecto en VS Code) ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# --- Logs ---
+*.log
+npm-debug.log*
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,14 @@
+# Dependencias y build
+node_modules/
+dist/
+.netlify/
+coverage/
+package-lock.json
+
+# Recursos estáticos
+public/img/
+
+# Archivos generados por las herramientas de diseño (Impeccable)
+.impeccable/
+PRODUCT.md
+DESIGN.md
