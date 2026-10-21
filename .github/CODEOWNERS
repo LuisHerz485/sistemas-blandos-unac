@@ -1,0 +1,6 @@
+
+# Propietario obligatorio para todo el repositorio
+* @LuisHerz485
+
+# Proteger también la configuración de propietarios
+/.github/ @LuisHerz485
